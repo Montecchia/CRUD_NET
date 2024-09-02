@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_SQL", "CRUD_SQL\CRUD_SQL.csproj", "{BED0C29B-670A-4554-B8D4-175BD375E8D6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{22A63B2C-D9A0-47FA-9770-097B1C618D61} = {22A63B2C-D9A0-47FA-9770-097B1C618D61}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conexiones", "Conexiones\Conexiones.csproj", "{22A63B2C-D9A0-47FA-9770-097B1C618D61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BED0C29B-670A-4554-B8D4-175BD375E8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED0C29B-670A-4554-B8D4-175BD375E8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED0C29B-670A-4554-B8D4-175BD375E8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED0C29B-670A-4554-B8D4-175BD375E8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A63B2C-D9A0-47FA-9770-097B1C618D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A63B2C-D9A0-47FA-9770-097B1C618D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A63B2C-D9A0-47FA-9770-097B1C618D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A63B2C-D9A0-47FA-9770-097B1C618D61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC53A8A4-35A4-4AD9-9EA0-2B5578FF759F}
+	EndGlobalSection
+EndGlobal
